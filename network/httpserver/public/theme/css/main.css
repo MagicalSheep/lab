@@ -1,0 +1,336 @@
+/** Fifty shades of Tux
+ * A black, white and yellow css for kernel.org based on normalize.css
+ * MIT License
+ * BenoÃ®t Monin [benoit.monin gmx.fr]
+ */
+
+@import "normalize.css";
+
+/**
+ * To use Google-hosted versions, use the following instead of @font-face
+ * definitions below.
+ *
+ * @import "https://fonts.googleapis.com/css?family=Oxygen";
+ * @import "https://fonts.googleapis.com/css?family=Oswald:400";
+ *
+ * We use locally-stored copies to avoid slowdowns in places like mainland
+ * China, where all access to Google is really slow.
+ */
+@font-face {
+    font-family: 'oswald';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygen';
+    src: url('../fonts/oxygen-regular-webfont.eot');
+    src: url('../fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('../fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: oxygen,sans-serif;
+    background: #F0EDE3;
+    color: #33290A;
+}
+
+#banner {
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0em auto;
+    padding: 1em;
+    width: 50em;
+    border: thin solid;
+    border-color: #DDDACF #CCC8B8 #BBB59F;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+#tux-gear {
+    width: 6.5em;
+    height: 7.5em;
+    background-image: url('../images/logos/tux.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+}
+#banner h1 {
+    margin: 28px 0 47px .05em;
+    text-shadow: 3px 3px 0 #F8F4EE;
+    font-size: 3em;
+}
+#banner h1 > a {
+    color: #2C1D00;
+    transition: none;
+}
+#banner ul {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    list-style: none;
+}
+#banner li {
+    display: inline;
+    padding: 0 1em;
+}
+#banner li > a {
+    color: #B39223;
+    white-space: nowrap;
+    font-size: 90%;
+}
+#banner li > a:hover,
+#banner li > a:active {
+        color: #4C3D00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: oswald,helvetica,sans-serif;
+}
+
+a {
+    color: #3357D6;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+a:visited {
+    color: #865796;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #B39223;
+    text-decoration: none;
+}
+
+abbr[title] {
+    border: none;
+}
+
+hr {
+    border: none;
+}
+
+#protocols {
+    float: left;
+    width: 25em;
+    margin: 1.3em 0 4em 2em;
+}
+#protocols th {
+    text-align: left;
+}
+
+#latest {
+    float: right;
+    background: #FFD133;
+    box-shadow: -0.1em -0.3em 0.5em #B39223 inset;
+    color: #4C3D00;
+    border-radius: 0.5em;
+    margin: 1em 2.2em 4em 0;
+}
+#latest td {
+    text-align: right;
+    vertical-align: top;
+}
+#latest_label {
+    font-size: 1.25em;
+    padding: 0.75em 1.25em .3em 0;
+}
+#latest_button {
+    padding: 0 0 0.75em 0;
+}
+#latest_button > a {
+    display: block;
+}
+#latest_button img {
+    vertical-align: middle;
+    padding-right: 1.25em;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+#latest_link {
+    font-size: 2.75em;
+    font-weight: bold;
+    padding: .35em 0.25em 0 0.5em;
+    min-width: 2em;
+}
+#latest_link > a {
+    color: #4C3D00;
+    display: block;
+    text-align: right;
+}
+
+#releases {
+    clear:both;
+    width: 100%;
+    margin-bottom: 0.25em;
+}
+#releases tr:nth-child(2n+1) {
+    background-color: #F7F6F1;
+}
+
+.post-info {
+    float: right;
+    text-align: center;
+    background: #F0EDE3;
+    color: #827A5E;
+    border: thin solid #CCC8B8;
+    box-shadow: 0 0.1em 0.2em #CCC8B8 inset;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    margin: 0 0 1em 1em;
+    font-size: 80%;
+}
+.post-info p {
+    margin: 0.25em 0 0;
+}
+#featured .post-info {
+    margin-top: 1.25em;
+}
+
+.literal-block {
+    background: #f3f3f3;
+    border: thin solid #ccc;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    font-size: 90%;
+}
+
+#featured,
+#content {
+    background: #FFFFFF;
+    margin: 1.5em auto;
+    padding: 1.85em 1em;
+    width: 50em;
+    border: thin solid;
+    border-color: #DDDACF #CCC8B8 #BBB59F;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-radius: 0.5em;
+}
+
+article h1 {
+    color: #33290A;
+    margin: 0 0 .9em 0;
+}
+article h1 > a {
+    color: #33290A !important;
+    transition: none;
+}
+
+table.docutils {
+    margin: 0 auto;
+    width: 80%;
+}
+table.docutils > caption {
+    margin: 0.5em 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+a.readmore {
+    font-style: italic;
+    color: #6A84E0;
+}
+a.readmore:hover,
+a.readmore:active {
+    color: #B39F5C;
+}
+
+#content > h1 {
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.paginator {
+    text-align: center;
+    color: #9e9678;
+    margin: 0;
+}
+
+#posts-list {
+    list-style: none;
+    padding: 0;
+}
+#posts-list > li {
+    border-bottom: medium dotted #F0EDE3;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+#posts-list > li:last-child {
+    border: none;
+}
+
+#extras {
+    margin: 1.5em auto;
+    width: 52em;
+}
+#extras > div {
+    background: #FFFFFF;
+    border: thin solid;
+    border-color: #DDDACF #CCC8B8 #BBB59F;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-radius: 0.5em;
+    height: 8.5em;
+}
+#extras > .blogroll {
+    float: left;
+    width: 34em;
+    padding: .5em 1em 0 1em;
+}
+#extras > .blogroll li {
+    width: 33%;
+    float: left;
+}
+#extras > .social {
+    float: right;
+    width: 12em;
+    padding: .5em 1em 0 1em;
+}
+#extras h2 {
+    margin: 0.5em 0 1em 0;
+}
+#extras ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contentinfo {
+    clear: both;
+    text-align: center;
+    color: #827A5E;
+    margin: 2em auto;
+    padding-top: 3.5em;
+    width: 53em;
+}
+#about {
+    font-size: 80%;
+}
+#donors {
+    margin-top: 1.5em;
+}
+#donors img {
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+img.align-left {
+    float: left;
+    padding: 0 1em 0 0;
+}
+dt {
+    font-weight: bold;
+}

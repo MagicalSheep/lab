@@ -1,0 +1,12 @@
+server.port=8080
+server.address=0.0.0.0
+server.shutdown=graceful
+spring.datasource.url=jdbc:mysql://localhost:3306/express
+spring.datasource.username=root
+spring.datasource.password=password
+spring.jpa.hibernate.ddl-auto=update
+spring.jackson.default-property-inclusion=non_null
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+spring.devtools.add-properties=false
+logging.level.web=info
+spring.jpa.open-in-view=true

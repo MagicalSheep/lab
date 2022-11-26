@@ -1,0 +1,6 @@
+[submodule "scheduler"]
+	path = scheduler
+	url = https://github.com/MagicalSheep/scheduler.git
+[submodule "notepad"]
+	path = notepad
+	url = https://github.com/MagicalSheep/notepad.git

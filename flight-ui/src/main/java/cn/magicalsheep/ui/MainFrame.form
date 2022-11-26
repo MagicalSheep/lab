@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cn.magicalsheep.ui.MainFrame">
+  <grid id="27dc6" binding="rootPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1084" height="538"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="45ebc" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <splitpane id="bf33e">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f125d" binding="leftPanel" layout-manager="CardLayout" hgap="0" vgap="0" show="60f27">
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="60f27" binding="loginPanel" layout-manager="FormLayout">
+                    <rowspec value="center:max(d;4px):noGrow"/>
+                    <rowspec value="top:43dlu:grow"/>
+                    <rowspec value="center:d:noGrow"/>
+                    <rowspec value="top:18dlu:noGrow"/>
+                    <rowspec value="center:16px:noGrow"/>
+                    <rowspec value="top:0dlu:noGrow"/>
+                    <rowspec value="center:32px:noGrow"/>
+                    <rowspec value="top:5dlu:noGrow"/>
+                    <rowspec value="center:17px:noGrow"/>
+                    <rowspec value="top:0dlu:noGrow"/>
+                    <rowspec value="center:32px:noGrow"/>
+                    <rowspec value="top:11dlu:noGrow"/>
+                    <rowspec value="center:32px:noGrow"/>
+                    <rowspec value="top:5dlu:noGrow"/>
+                    <rowspec value="center:32px:noGrow"/>
+                    <rowspec value="top:55dlu:grow"/>
+                    <rowspec value="center:max(d;4px):noGrow"/>
+                    <colspec value="fill:max(d;4px):noGrow"/>
+                    <colspec value="left:10dlu:noGrow"/>
+                    <colspec value="fill:198px:grow"/>
+                    <colspec value="left:10dlu:noGrow"/>
+                    <colspec value="fill:max(d;4px):noGrow"/>
+                    <constraints>
+                      <card name="loginCard"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="62ddd" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <font name="Microsoft YaHei UI" size="20" style="1"/>
+                          <text value="登录"/>
+                        </properties>
+                      </component>
+                      <component id="859da" class="javax.swing.JTextField" binding="accountField">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                          <forms defaultalign-horz="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="890bd" class="javax.swing.JPasswordField" binding="passwordField">
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                          <forms defaultalign-horz="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="b4926" class="javax.swing.JButton" binding="login">
+                        <constraints>
+                          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <text value="登录"/>
+                        </properties>
+                      </component>
+                      <component id="c3769" class="javax.swing.JButton" binding="register">
+                        <constraints>
+                          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <text value="注册"/>
+                        </properties>
+                      </component>
+                      <component id="ffe72" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <text value="用户名(注册) / 账号(登录)"/>
+                        </properties>
+                      </component>
+                      <component id="684fe" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <text value="密码"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a378e" binding="userPanel" layout-manager="FormLayout">
+                    <rowspec value="center:max(d;4px):noGrow"/>
+                    <rowspec value="top:10dlu:noGrow"/>
+                    <rowspec value="center:d:noGrow"/>
+                    <rowspec value="top:5dlu:noGrow"/>
+                    <rowspec value="center:20px:noGrow"/>
+                    <rowspec value="top:4dlu:noGrow"/>
+                    <rowspec value="center:20px:noGrow"/>
+                    <rowspec value="top:4dlu:noGrow"/>
+                    <rowspec value="center:20px:noGrow"/>
+                    <rowspec value="top:5dlu:noGrow"/>
+                    <rowspec value="center:20px:noGrow"/>
+                    <rowspec value="top:5dlu:noGrow"/>
+                    <rowspec value="center:317px:grow"/>
+                    <rowspec value="top:4dlu:noGrow"/>
+                    <rowspec value="center:32px:noGrow"/>
+                    <rowspec value="top:4dlu:noGrow"/>
+                    <rowspec value="center:max(d;4px):noGrow"/>
+                    <colspec value="fill:max(d;4px):noGrow"/>
+                    <colspec value="left:10dlu:noGrow"/>
+                    <colspec value="fill:220px:grow"/>
+                    <colspec value="left:10dlu:noGrow"/>
+                    <colspec value="fill:max(d;4px):noGrow"/>
+                    <constraints>
+                      <card name="userCard"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="37a09" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <font name="Microsoft YaHei UI" size="20" style="1"/>
+                          <text value="个人中心"/>
+                        </properties>
+                      </component>
+                      <grid id="e00a4" layout-manager="FormLayout">
+                        <rowspec value="center:d:noGrow"/>
+                        <colspec value="fill:d:noGrow"/>
+                        <colspec value="left:4dlu:noGrow"/>
+                        <colspec value="fill:175px:noGrow"/>
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="7bba5" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="用户名"/>
+                            </properties>
+                          </component>
+                          <component id="9ae9e" class="javax.swing.JLabel" binding="name">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="MagicalSheep"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="3e513" layout-manager="FormLayout">
+                        <rowspec value="center:d:noGrow"/>
+                        <colspec value="fill:d:noGrow"/>
+                        <colspec value="left:4dlu:noGrow"/>
+                        <colspec value="fill:175px:noGrow"/>
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="c2f81" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="用户组"/>
+                            </properties>
+                          </component>
+                          <component id="1ae3" class="javax.swing.JLabel" binding="group">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="普通用户"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="f189f" layout-manager="FormLayout">
+                        <rowspec value="center:20px:noGrow"/>
+                        <colspec value="fill:d:noGrow"/>
+                        <colspec value="left:4dlu:noGrow"/>
+                        <colspec value="fill:117px:noGrow"/>
+                        <colspec value="left:10dlu:grow"/>
+                        <colspec value="fill:55px:noGrow"/>
+                        <constraints>
+                          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="4778" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="余额"/>
+                            </properties>
+                          </component>
+                          <component id="4f2b2" class="javax.swing.JLabel" binding="money">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="100"/>
+                            </properties>
+                          </component>
+                          <component id="810b4" class="javax.swing.JButton" binding="addMoneyButton">
+                            <constraints>
+                              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <font size="10"/>
+                              <text value="充值"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="c75b9" layout-manager="FormLayout">
+                        <rowspec value="center:d:noGrow"/>
+                        <colspec value="fill:d:noGrow"/>
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="6359a" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="我的机票"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <scrollpane id="a6b21">
+                        <constraints>
+                          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="d5482" class="javax.swing.JTable" binding="myTickets">
+                            <constraints/>
+                            <properties/>
+                          </component>
+                        </children>
+                      </scrollpane>
+                      <component id="7b859" class="javax.swing.JButton" binding="logout">
+                        <constraints>
+                          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <text value="退出账号"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <tabbedpane id="aca66" binding="tabbedPanel">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties/>
+                <clientProperties>
+                  <JTabbedPane.tabAreaAlignment class="java.lang.String" value="center"/>
+                </clientProperties>
+                <border type="none"/>
+                <children>
+                  <grid id="8b2ae" binding="home" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <tabbedpane title="首页"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="true"/>
+                    </properties>
+                    <clientProperties>
+                      <JTabbedPane.tabAreaAlignment class="java.lang.String" value=""/>
+                    </clientProperties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="296a9" layout-manager="FormLayout">
+                        <rowspec value="center:d:noGrow"/>
+                        <rowspec value="top:4dlu:noGrow"/>
+                        <rowspec value="center:max(d;4px):noGrow"/>
+                        <colspec value="fill:d:grow"/>
+                        <constraints border-constraint="North"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <grid id="f8453" layout-manager="FormLayout">
+                            <rowspec value="center:max(d;4px):noGrow"/>
+                            <rowspec value="top:10dlu:noGrow"/>
+                            <rowspec value="center:d:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:10dlu:noGrow"/>
+                            <colspec value="fill:d:noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:160px:grow"/>
+                            <colspec value="left:5dlu:noGrow"/>
+                            <colspec value="fill:49px:noGrow"/>
+                            <colspec value="left:5dlu:noGrow"/>
+                            <colspec value="fill:168px:grow"/>
+                            <colspec value="left:10dlu:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="5ea7d" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="14"/>
+                                  <text value="从"/>
+                                </properties>
+                              </component>
+                              <component id="c0a64" class="javax.swing.JTextField" binding="fromField">
+                                <constraints>
+                                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                  <forms defaultalign-horz="false"/>
+                                </constraints>
+                                <properties/>
+                              </component>
+                              <component id="93d" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="14" style="0"/>
+                                  <text value="出发 到"/>
+                                </properties>
+                              </component>
+                              <component id="ac0a8" class="javax.swing.JTextField" binding="toField">
+                                <constraints>
+                                  <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                  <forms defaultalign-horz="false"/>
+                                </constraints>
+                                <properties/>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="3317c" layout-manager="FormLayout">
+                            <rowspec value="center:d:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:10dlu:noGrow"/>
+                            <colspec value="fill:32px:noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:283px:grow"/>
+                            <colspec value="left:11dlu:noGrow"/>
+                            <colspec value="fill:75px:noGrow"/>
+                            <colspec value="left:11dlu:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="503e6" class="javax.swing.JTextField" binding="timeField">
+                                <constraints>
+                                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="150" height="-1"/>
+                                  </grid>
+                                  <forms defaultalign-horz="false"/>
+                                </constraints>
+                                <properties/>
+                              </component>
+                              <component id="26f3b" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="14"/>
+                                  <text value="时间"/>
+                                </properties>
+                              </component>
+                              <component id="612dc" class="javax.swing.JButton" binding="search">
+                                <constraints>
+                                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <text value="查询"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="66ee8" layout-manager="FormLayout">
+                        <rowspec value="center:10px:noGrow"/>
+                        <rowspec value="top:2dlu:noGrow"/>
+                        <rowspec value="center:max(d;4px):grow"/>
+                        <rowspec value="top:4dlu:noGrow"/>
+                        <rowspec value="center:max(d;4px):noGrow"/>
+                        <colspec value="fill:max(d;4px):noGrow"/>
+                        <colspec value="left:10dlu:noGrow"/>
+                        <colspec value="fill:455px:grow"/>
+                        <colspec value="left:10dlu:noGrow"/>
+                        <colspec value="fill:max(d;4px):noGrow"/>
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="dd3ba">
+                            <constraints>
+                              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="af6c6" class="javax.swing.JTable" binding="flightInfo">
+                                <constraints/>
+                                <properties/>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="a2fc5" binding="info" layout-manager="FormLayout">
+                    <rowspec value="center:401px:grow"/>
+                    <colspec value="fill:503px:grow"/>
+                    <constraints>
+                      <tabbedpane title="机票信息"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="true"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="3a4d8" layout-manager="FormLayout">
+                        <rowspec value="center:max(d;4px):noGrow"/>
+                        <rowspec value="top:6dlu:noGrow"/>
+                        <rowspec value="center:45px:noGrow"/>
+                        <rowspec value="top:4dlu:noGrow"/>
+                        <rowspec value="center:max(d;4px):noGrow"/>
+                        <rowspec value="top:16dlu:noGrow"/>
+                        <rowspec value="center:15px:noGrow"/>
+                        <rowspec value="top:5dlu:noGrow"/>
+                        <rowspec value="center:212px:noGrow"/>
+                        <rowspec value="top:6dlu:noGrow"/>
+                        <rowspec value="center:max(d;4px):noGrow"/>
+                        <colspec value="fill:max(d;4px):noGrow"/>
+                        <colspec value="left:4dlu:grow"/>
+                        <colspec value="fill:d:noGrow"/>
+                        <colspec value="left:4dlu:grow"/>
+                        <colspec value="fill:max(d;4px):noGrow"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <grid id="24eb7" layout-manager="FormLayout">
+                            <rowspec value="center:d:noGrow"/>
+                            <rowspec value="top:2dlu:noGrow"/>
+                            <rowspec value="center:max(d;4px):noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:62dlu:grow"/>
+                            <colspec value="fill:d:noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:25px:noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:101px:noGrow"/>
+                            <colspec value="left:62dlu:grow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <constraints>
+                              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="713d" class="javax.swing.JLabel" binding="startTime">
+                                <constraints>
+                                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="36" style="1"/>
+                                  <text value="13:50"/>
+                                </properties>
+                              </component>
+                              <component id="d8500" class="javax.swing.JLabel" binding="endTime">
+                                <constraints>
+                                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="36" style="1"/>
+                                  <text value="18:00"/>
+                                </properties>
+                              </component>
+                              <component id="4e2b3" class="javax.swing.JLabel" binding="startAirplane">
+                                <constraints>
+                                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI"/>
+                                  <horizontalAlignment value="0"/>
+                                  <text value="黄花机场T2"/>
+                                </properties>
+                              </component>
+                              <component id="97052" class="javax.swing.JLabel" binding="endAirplane">
+                                <constraints>
+                                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI"/>
+                                  <horizontalAlignment value="0"/>
+                                  <text value="新白云机场T1"/>
+                                </properties>
+                              </component>
+                              <component id="21d2" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" style="1"/>
+                                  <text value="——"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="be7e8" layout-manager="FormLayout">
+                            <rowspec value="center:35px:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:56dlu:grow"/>
+                            <colspec value="fill:d:noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:65px:noGrow"/>
+                            <colspec value="left:56dlu:grow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <constraints>
+                              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <component id="7196" class="javax.swing.JLabel" binding="aircompany">
+                                <constraints>
+                                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                  <forms defaultalign-horz="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="12"/>
+                                  <horizontalAlignment value="0"/>
+                                  <text value="北部湾航空"/>
+                                </properties>
+                              </component>
+                              <component id="f3f92" class="javax.swing.JLabel" binding="airplane">
+                                <constraints>
+                                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="12"/>
+                                  <horizontalAlignment value="0"/>
+                                  <text value="GX8915"/>
+                                </properties>
+                              </component>
+                              <component id="701b9" class="javax.swing.JLabel" binding="date">
+                                <constraints>
+                                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="12"/>
+                                  <horizontalAlignment value="0"/>
+                                  <text value="1月15日 周六"/>
+                                </properties>
+                              </component>
+                              <component id="38777" class="javax.swing.JLabel" binding="totalTime">
+                                <constraints>
+                                  <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties>
+                                  <font name="Microsoft YaHei UI" size="12"/>
+                                  <horizontalAlignment value="0"/>
+                                  <text value="共4时10分"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <component id="c2a7b" class="javax.swing.JSeparator">
+                            <constraints>
+                              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <grid id="cc7b4" layout-manager="FormLayout">
+                            <rowspec value="center:d:noGrow"/>
+                            <rowspec value="top:2dlu:noGrow"/>
+                            <rowspec value="center:6px:noGrow"/>
+                            <rowspec value="top:2dlu:noGrow"/>
+                            <rowspec value="center:d:noGrow"/>
+                            <rowspec value="top:2dlu:noGrow"/>
+                            <rowspec value="center:6px:noGrow"/>
+                            <rowspec value="top:2dlu:noGrow"/>
+                            <rowspec value="center:d:noGrow"/>
+                            <colspec value="fill:460px:noGrow"/>
+                            <constraints>
+                              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="fa20d" binding="level1" layout-manager="FormLayout">
+                                <rowspec value="center:max(d;4px):noGrow"/>
+                                <colspec value="fill:380px:noGrow"/>
+                                <colspec value="left:4dlu:noGrow"/>
+                                <colspec value="fill:63px:noGrow"/>
+                                <colspec value="left:4dlu:grow"/>
+                                <colspec value="fill:max(d;4px):noGrow"/>
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <grid id="1f285" layout-manager="FormLayout">
+                                    <rowspec value="center:max(d;4px):noGrow"/>
+                                    <rowspec value="top:0dlu:noGrow"/>
+                                    <rowspec value="center:max(d;4px):noGrow"/>
+                                    <colspec value="fill:379px:noGrow"/>
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties/>
+                                    <border type="none"/>
+                                    <children>
+                                      <grid id="9df0e" layout-manager="FormLayout">
+                                        <rowspec value="center:max(d;4px):noGrow"/>
+                                        <colspec value="fill:14px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:208dlu:noGrow"/>
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <forms/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="d717c" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI" size="14"/>
+                                              <horizontalAlignment value="4"/>
+                                              <text value="￥"/>
+                                            </properties>
+                                          </component>
+                                          <component id="30916" class="javax.swing.JLabel" binding="price1">
+                                            <constraints>
+                                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI" size="22" style="1"/>
+                                              <text value="194"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                      <grid id="19d95" layout-manager="FormLayout">
+                                        <rowspec value="center:d:noGrow"/>
+                                        <colspec value="fill:max(d;4px):noGrow"/>
+                                        <colspec value="left:2dlu:noGrow"/>
+                                        <colspec value="fill:50px:noGrow"/>
+                                        <colspec value="left:5dlu:noGrow"/>
+                                        <colspec value="fill:60px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:30px:noGrow"/>
+                                        <colspec value="left:4dlu:noGrow"/>
+                                        <colspec value="fill:50px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:30px:noGrow"/>
+                                        <constraints>
+                                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <forms/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="f2f82" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI"/>
+                                              <text value="经济舱"/>
+                                            </properties>
+                                          </component>
+                                          <component id="310b6" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="乘员定额："/>
+                                            </properties>
+                                          </component>
+                                          <component id="75fe5" class="javax.swing.JLabel" binding="totalPassengerNumber1">
+                                            <constraints>
+                                              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="50"/>
+                                            </properties>
+                                          </component>
+                                          <component id="88157" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="余票量："/>
+                                            </properties>
+                                          </component>
+                                          <component id="93828" class="javax.swing.JLabel" binding="remainPassengerNumber1">
+                                            <constraints>
+                                              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="20"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                    </children>
+                                  </grid>
+                                  <component id="55d5" class="javax.swing.JButton" binding="buy1">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="订购"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <component id="9cddb" class="javax.swing.JSeparator" binding="separator3">
+                                <constraints>
+                                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                                </constraints>
+                                <properties/>
+                              </component>
+                              <grid id="e524a" binding="level2" layout-manager="FormLayout">
+                                <rowspec value="center:max(d;4px):noGrow"/>
+                                <colspec value="fill:380px:noGrow"/>
+                                <colspec value="left:4dlu:noGrow"/>
+                                <colspec value="fill:63px:noGrow"/>
+                                <colspec value="left:4dlu:grow"/>
+                                <colspec value="fill:max(d;4px):noGrow"/>
+                                <constraints>
+                                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <grid id="89e91" layout-manager="FormLayout">
+                                    <rowspec value="center:max(d;4px):noGrow"/>
+                                    <rowspec value="top:0dlu:noGrow"/>
+                                    <rowspec value="center:max(d;4px):noGrow"/>
+                                    <colspec value="fill:379px:noGrow"/>
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties/>
+                                    <border type="none"/>
+                                    <children>
+                                      <grid id="1d572" layout-manager="FormLayout">
+                                        <rowspec value="center:max(d;4px):noGrow"/>
+                                        <colspec value="fill:14px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:208dlu:noGrow"/>
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <forms/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="9e7ad" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI" size="14"/>
+                                              <horizontalAlignment value="4"/>
+                                              <text value="￥"/>
+                                            </properties>
+                                          </component>
+                                          <component id="d6516" class="javax.swing.JLabel" binding="price2">
+                                            <constraints>
+                                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI" size="22" style="1"/>
+                                              <text value="194"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                      <grid id="218c5" layout-manager="FormLayout">
+                                        <rowspec value="center:d:noGrow"/>
+                                        <colspec value="fill:max(d;4px):noGrow"/>
+                                        <colspec value="left:2dlu:noGrow"/>
+                                        <colspec value="fill:50px:noGrow"/>
+                                        <colspec value="left:5dlu:noGrow"/>
+                                        <colspec value="fill:60px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:30px:noGrow"/>
+                                        <colspec value="left:4dlu:noGrow"/>
+                                        <colspec value="fill:50px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:30px:noGrow"/>
+                                        <constraints>
+                                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <forms/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="644b8" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI"/>
+                                              <text value="公务舱"/>
+                                            </properties>
+                                          </component>
+                                          <component id="16a90" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="乘员定额："/>
+                                            </properties>
+                                          </component>
+                                          <component id="d0693" class="javax.swing.JLabel" binding="totalPassengerNumber2">
+                                            <constraints>
+                                              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="50"/>
+                                            </properties>
+                                          </component>
+                                          <component id="2b4f6" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="余票量："/>
+                                            </properties>
+                                          </component>
+                                          <component id="700f4" class="javax.swing.JLabel" binding="remainPassengerNumber2">
+                                            <constraints>
+                                              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="15"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                    </children>
+                                  </grid>
+                                  <component id="27e23" class="javax.swing.JButton" binding="buy2">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="订购"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <component id="3fa11" class="javax.swing.JSeparator" binding="separator4">
+                                <constraints>
+                                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                                </constraints>
+                                <properties/>
+                              </component>
+                              <grid id="7879d" binding="level3" layout-manager="FormLayout">
+                                <rowspec value="center:max(d;4px):noGrow"/>
+                                <colspec value="fill:380px:noGrow"/>
+                                <colspec value="left:4dlu:noGrow"/>
+                                <colspec value="fill:63px:noGrow"/>
+                                <colspec value="left:4dlu:grow"/>
+                                <colspec value="fill:max(d;4px):noGrow"/>
+                                <constraints>
+                                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <grid id="435df" layout-manager="FormLayout">
+                                    <rowspec value="center:max(d;4px):noGrow"/>
+                                    <rowspec value="top:0dlu:noGrow"/>
+                                    <rowspec value="center:max(d;4px):noGrow"/>
+                                    <colspec value="fill:379px:noGrow"/>
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties/>
+                                    <border type="none"/>
+                                    <children>
+                                      <grid id="919b9" layout-manager="FormLayout">
+                                        <rowspec value="center:max(d;4px):noGrow"/>
+                                        <colspec value="fill:14px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:208dlu:noGrow"/>
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <forms/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="ad2d0" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI" size="14"/>
+                                              <horizontalAlignment value="4"/>
+                                              <text value="￥"/>
+                                            </properties>
+                                          </component>
+                                          <component id="e4f37" class="javax.swing.JLabel" binding="price3">
+                                            <constraints>
+                                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI" size="22" style="1"/>
+                                              <text value="194"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                      <grid id="c56e9" layout-manager="FormLayout">
+                                        <rowspec value="center:d:noGrow"/>
+                                        <colspec value="fill:max(d;4px):noGrow"/>
+                                        <colspec value="left:2dlu:noGrow"/>
+                                        <colspec value="fill:50px:noGrow"/>
+                                        <colspec value="left:5dlu:noGrow"/>
+                                        <colspec value="fill:60px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:30px:noGrow"/>
+                                        <colspec value="left:5dlu:noGrow"/>
+                                        <colspec value="fill:50px:noGrow"/>
+                                        <colspec value="left:0dlu:noGrow"/>
+                                        <colspec value="fill:30px:noGrow"/>
+                                        <constraints>
+                                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <forms/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="30a97" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="Microsoft YaHei UI"/>
+                                              <text value="头等舱"/>
+                                            </properties>
+                                          </component>
+                                          <component id="313ee" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="乘员定额："/>
+                                            </properties>
+                                          </component>
+                                          <component id="cb0c1" class="javax.swing.JLabel" binding="totalPassengerNumber3">
+                                            <constraints>
+                                              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="50"/>
+                                            </properties>
+                                          </component>
+                                          <component id="c9a51" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="余票量："/>
+                                            </properties>
+                                          </component>
+                                          <component id="34a1" class="javax.swing.JLabel" binding="remainPassengerNumber3">
+                                            <constraints>
+                                              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                              <forms/>
+                                            </constraints>
+                                            <properties>
+                                              <text value="34"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                    </children>
+                                  </grid>
+                                  <component id="c5dc7" class="javax.swing.JButton" binding="buy3">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="订购"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="b13ad" binding="admin" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <tabbedpane title="管理面板"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <splitpane id="1adbf">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <grid id="ce18c" layout-manager="FormLayout">
+                            <rowspec value="center:max(d;4px):noGrow"/>
+                            <rowspec value="top:4dlu:noGrow"/>
+                            <rowspec value="center:30px:noGrow"/>
+                            <rowspec value="top:4dlu:noGrow"/>
+                            <rowspec value="center:max(d;4px):grow"/>
+                            <rowspec value="top:4dlu:noGrow"/>
+                            <rowspec value="center:max(d;4px):noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:349px:grow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <constraints>
+                              <splitpane position="left"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="a23f8" layout-manager="FormLayout">
+                                <rowspec value="center:d:noGrow"/>
+                                <colspec value="fill:max(d;4px):noGrow"/>
+                                <colspec value="left:4dlu:noGrow"/>
+                                <colspec value="fill:d:noGrow"/>
+                                <colspec value="left:53dlu:grow"/>
+                                <colspec value="fill:50dlu:noGrow"/>
+                                <colspec value="left:2dlu:noGrow"/>
+                                <colspec value="fill:50dlu:noGrow"/>
+                                <constraints>
+                                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="55b34" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <font name="Microsoft YaHei UI" size="18"/>
+                                      <text value="航班信息"/>
+                                    </properties>
+                                  </component>
+                                  <component id="63fc6" class="javax.swing.JButton" binding="addFlight">
+                                    <constraints>
+                                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="添加"/>
+                                    </properties>
+                                  </component>
+                                  <component id="b216" class="javax.swing.JButton" binding="removeFlight">
+                                    <constraints>
+                                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="删除"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <scrollpane id="beba3" binding="adminFlightInfoPanel">
+                                <constraints>
+                                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="326ff" class="javax.swing.JTable" binding="adminFlightInfo">
+                                    <constraints/>
+                                    <properties/>
+                                  </component>
+                                </children>
+                              </scrollpane>
+                            </children>
+                          </grid>
+                          <grid id="68552" layout-manager="FormLayout">
+                            <rowspec value="center:max(d;4px):noGrow"/>
+                            <rowspec value="top:4dlu:noGrow"/>
+                            <rowspec value="center:30px:noGrow"/>
+                            <rowspec value="top:4dlu:noGrow"/>
+                            <rowspec value="center:d:grow"/>
+                            <rowspec value="top:4dlu:noGrow"/>
+                            <rowspec value="center:max(d;4px):noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:385px:grow"/>
+                            <colspec value="left:4dlu:noGrow"/>
+                            <colspec value="fill:max(d;4px):noGrow"/>
+                            <constraints>
+                              <splitpane position="right"/>
+                            </constraints>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="11b78" layout-manager="FormLayout">
+                                <rowspec value="center:d:noGrow"/>
+                                <colspec value="fill:max(d;4px):noGrow"/>
+                                <colspec value="left:4dlu:noGrow"/>
+                                <colspec value="fill:d:noGrow"/>
+                                <colspec value="left:53dlu:grow"/>
+                                <colspec value="fill:50dlu:noGrow"/>
+                                <colspec value="left:2dlu:noGrow"/>
+                                <colspec value="fill:50dlu:noGrow"/>
+                                <constraints>
+                                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="9bd5d" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <font name="Microsoft YaHei UI" size="18"/>
+                                      <text value="客户订票信息"/>
+                                    </properties>
+                                  </component>
+                                  <component id="f0ce0" class="javax.swing.JButton" binding="addUserTicket">
+                                    <constraints>
+                                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="添加"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4e0c8" class="javax.swing.JButton" binding="removeUserTicket">
+                                    <constraints>
+                                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                      <forms/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="删除"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <scrollpane id="2edc8" binding="adminUserInfoPanel">
+                                <constraints>
+                                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="ceba2" class="javax.swing.JTable" binding="adminUserInfo">
+                                    <constraints/>
+                                    <properties/>
+                                  </component>
+                                </children>
+                              </scrollpane>
+                            </children>
+                          </grid>
+                        </children>
+                      </splitpane>
+                    </children>
+                  </grid>
+                  <grid id="26aeb" binding="about" layout-manager="FormLayout">
+                    <rowspec value="center:max(d;4px):noGrow"/>
+                    <rowspec value="top:21dlu:grow"/>
+                    <rowspec value="center:21dlu:noGrow"/>
+                    <rowspec value="top:2dlu:noGrow"/>
+                    <rowspec value="center:21dlu:noGrow"/>
+                    <rowspec value="top:4dlu:noGrow"/>
+                    <rowspec value="center:21dlu:noGrow"/>
+                    <rowspec value="top:9dlu:grow"/>
+                    <rowspec value="center:30px:noGrow"/>
+                    <rowspec value="top:4dlu:grow"/>
+                    <rowspec value="center:max(d;4px):noGrow"/>
+                    <colspec value="fill:max(d;4px):noGrow"/>
+                    <colspec value="left:20dlu:noGrow"/>
+                    <colspec value="fill:455px:grow"/>
+                    <colspec value="left:20dlu:noGrow"/>
+                    <colspec value="fill:max(d;4px):noGrow"/>
+                    <constraints>
+                      <tabbedpane title="关于"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="b6878" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <font name="Microsoft YaHei UI" size="14"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="8208201308 温程科"/>
+                        </properties>
+                      </component>
+                      <component id="64614" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <font name="Microsoft YaHei UI" size="14"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="Thanks for JetBrain IntellijIDEA"/>
+                        </properties>
+                      </component>
+                      <component id="3a68e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties>
+                          <font name="Microsoft YaHei UI" size="14"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="Welcome to visit my GitHub @MagicalSheep"/>
+                        </properties>
+                      </component>
+                      <grid id="b85c0" layout-manager="FormLayout">
+                        <rowspec value="center:d:noGrow"/>
+                        <colspec value="fill:max(d;4px):noGrow"/>
+                        <colspec value="left:135dlu:noGrow"/>
+                        <colspec value="fill:d:grow"/>
+                        <colspec value="left:135dlu:noGrow"/>
+                        <colspec value="fill:max(d;4px):noGrow"/>
+                        <constraints>
+                          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="a0290" class="javax.swing.JButton" binding="gitHubButton" default-binding="true">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                              <forms/>
+                            </constraints>
+                            <properties>
+                              <text value="GitHub"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </splitpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
