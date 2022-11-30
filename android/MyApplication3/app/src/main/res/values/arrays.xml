@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="units_entries">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="units_values">
+        <item>celsius</item>
+        <item>fahrenheit</item>
+    </string-array>
+</resources>

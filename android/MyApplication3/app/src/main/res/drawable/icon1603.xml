@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+  <path
+      android:pathData="m14.183,3.286 l-1.438,0.816 -6.302,10.909h9.119z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M12.232,5.903 L9.153,7.186l-4.865,7.825h7.809z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M9.149,8.653 L4.566,9.809 0.903,15.011h7.809zM11.105,5.813a0.713,0.713 0,1 0,-1.155 -0.835,0.713 0.713,0 0,0 1.155,0.835z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M5.63,9.863a0.825,0.825 0,1 0,-1.339 -0.966,0.825 0.825,0 0,0 1.339,0.966zM3.835,7.438a0.913,0.913 0,1 0,-1.481 -1.069,0.913 0.913,0 0,0 1.481,1.069zM12.513,2.66a1.149,1.149 0,1 0,-1.862 -1.346,1.149 1.149,0 0,0 1.862,1.346zM8.274,3.566A1.149,1.149 0,1 0,6.409 2.22a1.149,1.149 0,1 0,1.865 1.346zM8.19,7.726a1.572,1.572 0,1 0,-2.548 -1.84,1.572 1.572,0 0,0 2.548,1.84zM2.406,12.328a1.313,1.313 0,1 0,-1.537 2.13,1.313 1.313,0 0,0 1.537,-2.13z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+</vector>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NASA Curiosity</string>
+    <string name="fail_note">Failed to get meta information from API</string>
+</resources>

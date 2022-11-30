@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:defaultValue="@string/default_location"
+        app:key="location"
+        app:title="@string/location"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:defaultValue="celsius"
+        app:entries="@array/units_entries"
+        app:entryValues="@array/units_values"
+        app:key="temp_units"
+        app:title="@string/temp_units"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreferenceCompat
+        app:key="is_notice"
+        app:title="@string/is_notice" />
+
+</PreferenceScreen>

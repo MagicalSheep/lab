@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+  <path
+      android:pathData="M15.511,5.497c0,-1.69 -2.342,-3.136 -5.654,-3.724 1.786,0.733 2.906,1.785 2.906,2.954 0,2.212 -4.008,4.006 -8.953,4.006A18.977,18.977 0,0 1,0.511 8.45,16.37 16.37,0 0,0 6.56,9.503a16.766,16.766 0,0 0,5.718 -0.924,1.363 1.363,0 0,1 0.01,0.16c0,1.659 -3.006,3.004 -6.714,3.004a14.17,14.17 0,0 1,-2.474 -0.212,12.265 12.265,0 0,0 4.535,0.79 12.914,12.914 0,0 0,4 -0.592c0.001,0.018 0.006,0.035 0.006,0.052 0,1.245 -2.255,2.253 -5.036,2.253a10.654,10.654 0,0 1,-1.856 -0.158,9.206 9.206,0 0,0 3.402,0.592c2.78,0 5.036,-1.009 5.036,-2.254a1.325,1.325 0,0 0,-0.463 -0.94c1.012,-0.525 1.626,-1.21 1.626,-1.958a1.843,1.843 0,0 0,-0.73 -1.357,3.109 3.109,0 0,0 1.892,-2.462z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M4.748,7.207m-0.581,0a0.581,0.581 0,1 1,1.162 0a0.581,0.581 0,1 1,-1.162 0"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M3.572,3.719a0.581,0.581 0,1 0,-0.58 -0.581,0.58 0.58,0 0,0 0.58,0.581zM9.654,6.393a0.581,0.581 0,1 0,-0.582 -0.581,0.581 0.581,0 0,0 0.582,0.581zM8.386,3.719a0.581,0.581 0,1 0,-0.582 -0.581,0.582 0.582,0 0,0 0.582,0.581z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M1.828,5.463m-0.581,0a0.581,0.581 0,1 1,1.162 0a0.581,0.581 0,1 1,-1.162 0"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M8.923,10.676a0.581,0.581 0,1 0,-0.759 0.316,0.581 0.581,0 0,0 0.76,-0.316zM5.286,10.676a0.581,0.581 0,1 0,-0.76 0.316,0.581 0.581,0 0,0 0.76,-0.316zM6.796,13.445a0.581,0.581 0,1 0,-0.758 0.317,0.58 0.58,0 0,0 0.758,-0.317zM6.492,5.58a0.582,0.582 0,1 0,-0.581 -0.582,0.582 0.582,0 0,0 0.58,0.582z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"
+      android:fillType="evenOdd"/>
+</vector>

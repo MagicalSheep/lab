@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+  <path
+      android:pathData="M8,8m-4.545,0a4.545,4.545 0,1 1,9.09 0a4.545,4.545 0,1 1,-9.09 0"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M8,8m-0.085,0a0.085,0.085 0,1 1,0.17 0a0.085,0.085 0,1 1,-0.17 0"
+      android:fillColor="#ea0392"/>
+  <path
+      android:pathData="M8.085,8.107a3.85,3.85 0,0 1,-1.299 -2.876,3.876 3.876,0 0,1 3.876,-3.876c0.413,0 0.803,0.082 1.177,0.202a6.107,6.107 0,0 0,-8.539 5.6c0,0.923 0.211,1.795 0.577,2.579 0.994,-0.731 2.468,-1.312 4.208,-1.629z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M8.135,7.98c-1.01,0.33 -2.147,0.26 -3.141,-0.313a3.876,3.876 0,0 1,-1.419 -5.295c0.207,-0.358 0.473,-0.655 0.763,-0.918a6.106,6.106 0,0 0,0.582 10.194,6.08 6.08,0 0,0 2.522,0.79c-0.136,-1.225 0.098,-2.792 0.693,-4.458z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M8.05,7.873a3.852,3.852 0,0 1,-1.841 2.563A3.876,3.876 0,0 1,0.914 9.017,3.81 3.81,0 0,1 0.5,7.898a6.107,6.107 0,0 0,9.119 4.594,6.076 6.076,0 0,0 1.945,-1.789c-1.129,-0.496 -2.369,-1.482 -3.514,-2.83z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M7.915,7.893a3.85,3.85 0,0 1,1.299 2.876,3.876 3.876,0 0,1 -3.876,3.876 3.83,3.83 0,0 1,-1.177 -0.202,6.107 6.107,0 0,0 8.538,-5.601c0,-0.923 -0.211,-1.795 -0.577,-2.579 -0.993,0.732 -2.467,1.313 -4.207,1.63z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M7.865,8.02a3.85,3.85 0,0 1,3.141 0.313,3.876 3.876,0 0,1 1.419,5.295 3.836,3.836 0,0 1,-0.763 0.918,6.107 6.107,0 0,0 -0.581,-10.195 6.08,6.08 0,0 0,-2.522 -0.79c0.135,1.226 -0.099,2.793 -0.694,4.459z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+  <path
+      android:pathData="M7.95,8.127a3.852,3.852 0,0 1,1.841 -2.563,3.876 3.876,0 0,1 5.295,1.419c0.207,0.358 0.331,0.737 0.414,1.12a6.107,6.107 0,0 0,-9.119 -4.594,6.065 6.065,0 0,0 -1.945,1.789c1.129,0.495 2.369,1.481 3.514,2.829z"
+      android:fillColor="@color/material_on_surface_emphasis_medium"/>
+</vector>
