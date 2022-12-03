@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7c44e4d-fafa-46cb-b89c-8ffacde7f83b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/core/Mode1Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/core/Mode2Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/core/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ui/MainFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ui/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ui/Mode1Frame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ui/Mode1Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ui/Mode2Frame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/client/ui/Mode2Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/request/Mode1AnswerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/request/Mode2AnswerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/request/ModeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/response/Mode1Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/response/Mode2Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/common/response/ModeResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/core/ModeCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/core/impl/Mode1Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/core/impl/Mode2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/model/ChTrans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/magicalsheep/server/model/DictEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CET6-Words.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="2ackbb72" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ILYyLOj1KgtlqpWmZBQ2elHikR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "288",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CET6-Game/settings.gradle.kts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\demo\src\main\java\org\example\client\ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.ClientMain">
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.magicalsheep.client.ClientMain" />
+      <module name="CET6-Game.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.magicalsheep.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.magicalsheep.server.ServerMain" />
+      <module name="CET6-Game.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.magicalsheep.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.ClientMain" />
+        <item itemvalue="应用程序.ServerMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d7c44e4d-fafa-46cb-b89c-8ffacde7f83b" name="变更" comment="" />
+      <created>1669962585116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669962585116</updated>
+      <workItem from="1669962586306" duration="10008000" />
+      <workItem from="1669972637785" duration="3037000" />
+      <workItem from="1669975686863" duration="4806000" />
+      <workItem from="1669996694255" duration="8616000" />
+      <workItem from="1670006042542" duration="7050000" />
+      <workItem from="1670046312189" duration="28000" />
+      <workItem from="1670046349880" duration="94000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
