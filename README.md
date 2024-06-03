@@ -7,8 +7,8 @@
 - [android](/android/)：阳旺老师的《移动应用开发》课程实验代码。
 - [flight-ui](/flight-ui/)：大二上《高级程序设计实践》的航空机票订票系统。
 - [network](/network/)：桂劲松老师的《计算机网络》课程实验代码，含简单 Web 服务器端程序实现与简单 HTTP 代理实现。
-- [notepad](/notepad/)：大一上《计算机程序设计实践》的文本编辑器代码。
-- [scheduler](/scheduler/)：李玺老师的《操作系统原理》课程实验代码。
+- [notepad](https://github.com/MagicalSheep/notepad)：大一上《计算机程序设计实践》的文本编辑器代码。
+- [scheduler](https://github.com/MagicalSheep/scheduler)：李玺老师的《操作系统原理》课程实验代码。
 - [weibo](/weibo/)：大三上《应用基础实践二》的微博应用程序代码。
 - [express](/express/)：大三上《应用基础实践二》的基于二维码的快递信息保护系统程序代码。
 - [java](/java/)：郭克华、黄家玮老师的《Java语言与系统设计》课程大作业代码。
