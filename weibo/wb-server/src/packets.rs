@@ -16,8 +16,10 @@ pub struct AjaxResult<T> {
 
 #[derive(Debug, Validate, Deserialize)]
 pub struct LoginPacket {
+    #[validate(length(min = 1, message = "用户名不能为空"))]
     #[validate(length(max = 20, message = "用户名过长"))]
     pub name: String,
+    #[validate(length(min = 1, message = "密码不能为空"))]
     pub pwd: String,
     pub sex: Option<String>,
     pub city: Option<String>,
